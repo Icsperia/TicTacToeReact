@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.game {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.game-info {
+    margin-left: 20px;
+}
+
+
+.status {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.board-row {
+    display: flex;
+}
+
+
+button {
+    background-color: #4f46e5; /* Indigo */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin: 6px 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+button:hover {
+    background-color: #4338ca; /* Darker Indigo */
+}
+button:focus {
+    outline: none;
+}
+
+
+.scores {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+.square {
+    background-color: white;
+    color: #111827;
+    border: 2px solid #d1d5db;
+    border-radius: 12px;
+    font-size: 32px;
+    font-weight: bold;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    transition: all 0.2s ease;
+}
+
+
+.square:hover {
+    background-color: #f3f4f6;
+}
+
+
+.square:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3);
+}
